@@ -26,15 +26,15 @@ Done 3. Implement a Use Case class for creating a new account. It should have a 
 create_account() that takes customer_id, name, email, and phone_number as input and
 returns an Account object.
 
-4. Implement a Use Case class for making a transaction. It should have a method named
+Done 4. Implement a Use Case class for making a transaction. It should have a method named
 make_transaction() that takes account_id, amount, and transaction_type (either
 'deposit' or 'withdraw') as input and updates the account balance accordingly.
 
-5. Implement a Use Case class for generating account statements. It should have a method
+Done 5. Implement a Use Case class for generating account statements. It should have a method
 named generate_account_statement() that takes account_id as input and returns a
 statement string containing transaction details for the given account.
 
-6. Implement an Infrastructure class named AccountRepository for persisting and
+Done 6. Implement an Infrastructure class named AccountRepository for persisting and
 retrieving account data. It should have methods like save_account(),
 find_account_by_id(), and find_accounts_by_customer_id().
 

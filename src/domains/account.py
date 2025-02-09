@@ -16,3 +16,9 @@ class Account:
 
     def get_balance(self):
         return self.balance
+    def __str__(self):
+        return (f"Account("
+                f"account_id={self.account_id}, "
+                f"customer_id={self.customer_id}, "
+                f"account_number={self.account_number}, "
+                f"balance={self.balance})")
